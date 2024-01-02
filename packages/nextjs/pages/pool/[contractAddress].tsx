@@ -245,7 +245,9 @@ const PoolDetails = () => {
       </p>
 
       {/* UI here probably */}
-      <button onClick={handleApprove}>Approve</button>
+      <button className="border solid 1px black" onClick={handleApprove}>
+        Approve
+      </button>
       <button onClick={handleAddLiquidity}>Add Liquidity</button>
       <button onClick={handleRemoveLiquidity}>Remove Liquidity</button>
     </div>
